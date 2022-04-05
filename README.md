@@ -2,14 +2,18 @@
 
 Challenge: A directory contains multiple files and directories of non-uniform file and directory names. Create a program that traverses a base directory and creates an index file that can be used to quickly lookup files by name, size, and content type.
 
-# Instructions
+# Usage
+This is a console application.  Open DirParser.sln and compile in visual studio code or community.
 
-Fork this repository and implement the above requirements. The result must be an application that implements both the index and search features. Use your best judgement as to the interface that is used to use the index and search features, but remember that this is meant to create a dialog during the interview process, not be something that would be used in production.
+The Program outputs instructions.  If you don't specify a directory, it expects "test_data" to be in the same directory it is executing in.  You can also specify any 
+custom path.
 
-Feel free to use the language, libraries, and tools that you are most comfortable in and best reflect your ability to translate requirements into a functional implementation.
+Follow the onscreen prompts for search types.  i.e.
+Name=sample
+Type=jpg
+Size=>17000
 
-Once the project is implemented, remove the `# Instructions` section of this readme and add the section `# Usage` with instructions on how to run the produced application.
+It executes in a loop until "exit" is typed followed by enter.
 
-The `test_data` directory in this project contains files and directories that can be used to test your implementation.
 
-Good luck.
+
