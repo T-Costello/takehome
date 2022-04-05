@@ -3,7 +3,7 @@
 Challenge: A directory contains multiple files and directories of non-uniform file and directory names. Create a program that traverses a base directory and creates an index file that can be used to quickly lookup files by name, size, and content type.
 
 # Usage
-This is a console application.  Open DirParser.sln and compile in visual studio code or community.
+This is a console application.  Open DirParser.sln and compile in visual studio code or community.  This is .NET 5.
 
 The Program outputs instructions.  If you don't specify a directory, it expects "test_data" to be in the same directory it is executing in.  You can also specify any 
 custom path.
